@@ -119,3 +119,7 @@ div.share {
 .footer a {
   margin-left: auto;
 }
+
+.active {
+  display: none;
+}
