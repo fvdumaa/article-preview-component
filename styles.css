@@ -1,0 +1,121 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/*  */
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecf2f8;
+  color: #6e8098;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  padding: 1.5rem;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.12px;
+}
+
+article {
+  background-color: #ffffff;
+  border-radius: 0.625rem;
+}
+
+article > img {
+  border-radius: 0.625rem 0.625rem 0 0;
+  height: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 1.25rem 2rem;
+}
+
+h1 {
+  color: #48556a;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+section > p {
+  margin-bottom: 1.25rem;
+}
+
+img.michelle {
+  border-radius: 50%;
+  height: 2.5rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container span {
+  font-weight: 700;
+  color: #48556a;
+}
+
+div.share {
+  background-color: #ecf2f8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.625rem;
+}
+
+.footer a {
+  margin-left: auto;
+}
